@@ -2,7 +2,10 @@
 #include <string>
 using namespace std;
 
-int main()
+class Node
 {
-    
-}
+public:
+    int noMhs;
+    Node *next;
+};
+
